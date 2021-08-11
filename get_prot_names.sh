@@ -4,6 +4,6 @@ FILES="./*.afa"
 
 for file in $FILES
 do
-	grep -H -n "^>" $file >> new_prot_names.txt
+	grep -H -n "^>" $file >> prot_names.txt
 done
 
